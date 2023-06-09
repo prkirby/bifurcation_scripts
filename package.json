@@ -1,0 +1,26 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "bifurcation firmware scripts",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "ota": "ts-node-esm ./ota_bifurcation.ts"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.2.5",
+    "dotenv": "^16.1.4",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^9.2.7",
+    "inquirer-autocomplete-prompt": "^3.0.0",
+    "shelljs": "^0.8.5",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.3"
+  },
+  "devDependencies": {
+    "@types/inquirer-autocomplete-prompt": "^3.0.0"
+  },
+  "type": "module"
+}
